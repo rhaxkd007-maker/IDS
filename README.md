@@ -1,4 +1,9 @@
+CIC IDS2017 네트워크 트래픽 기반 정형데이터를 활용한 네트워크 침입 예측 시스템
+
 기술
+
+-Languages-
+Python
 
 -Frameworks & Libraries-
 Pandas, NumPy (데이터 전처리, NaN/Inf 보정, 샘플링)
