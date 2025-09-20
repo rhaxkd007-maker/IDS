@@ -1,0 +1,44 @@
+                            precision    recall  f1-score   support
+
+                    BENIGN       0.98      0.93      0.96    170351
+                       Bot       0.45      0.25      0.32       391
+                      DDoS       0.80      0.98      0.88     25603
+             DoS GoldenEye       0.69      0.80      0.74      2057
+                  DoS Hulk       0.99      0.94      0.97     34570
+          DoS Slowhttptest       0.38      0.87      0.52      1046
+             DoS slowloris       0.19      0.53      0.28      1077
+               FTP-Patator       0.98      0.99      0.99      1187
+                Heartbleed       0.00      0.00      0.00         2
+              Infiltration       0.00      0.14      0.01         7
+                  PortScan       0.89      0.98      0.93     18164
+               SSH-Patator       0.99      0.92      0.95       644
+  Web Attack � Brute Force       0.67      0.93      0.78       294
+Web Attack � Sql Injection       0.00      0.00      0.00         4
+          Web Attack � XSS       0.44      0.03      0.06       130
+
+                  accuracy                           0.94    255527
+                 macro avg       0.56      0.62      0.56    255527
+              weighted avg       0.95      0.94      0.94    255527
+
+
+[Per-class OVA metrics]
+label,accuracy_ova,balanced_accuracy_ova,support
+BENIGN,0.943626,0.950496,170351
+Bot,0.998384,0.623808,391
+DDoS,0.973819,0.975942,25603
+DoS GoldenEye,0.995550,0.900594,2057
+DoS Hulk,0.990987,0.970717,34570
+DoS Slowhttptest,0.993535,0.932964,1046
+DoS slowloris,0.988776,0.759522,1077
+FTP-Patator,0.999871,0.994485,1187
+Heartbleed,0.999984,0.499996,2
+Infiltration,0.998908,0.570894,7
+PortScan,0.989848,0.986071,18164
+SSH-Patator,0.999765,0.958063,644
+Web Attack � Brute Force,0.999401,0.964027,294
+Web Attack � Sql Injection,0.999984,0.500000,4
+Web Attack � XSS,0.999487,0.515375,130
+
+[BENIGN errors]
+False Positives (attack→benign): 2461
+False Negatives (benign→attack): 11944
