@@ -1,0 +1,71 @@
+﻿feature,dtype,n_unique,n_missing
+Destination Port,int64,53805,0
+Flow Duration,int64,1050899,0
+Total Fwd Packets,int64,1432,0
+Total Backward Packets,int64,1747,0
+Total Length of Fwd Packets,int64,17928,0
+Total Length of Bwd Packets,int64,64698,0
+Fwd Packet Length Max,int64,5279,0
+Fwd Packet Length Min,int64,384,0
+Fwd Packet Length Mean,float64,99716,0
+Fwd Packet Length Std,float64,253909,0
+Bwd Packet Length Max,int64,4838,0
+Bwd Packet Length Min,int64,583,0
+Bwd Packet Length Mean,float64,147614,0
+Bwd Packet Length Std,float64,248869,0
+Flow Bytes/s,float64,1593908,0
+Flow Packets/s,float64,1240164,0
+Flow IAT Mean,float64,1166311,0
+Flow IAT Std,float64,1056642,0
+Flow IAT Max,int64,580289,0
+Flow IAT Min,int64,136316,0
+Fwd IAT Total,int64,493098,0
+Fwd IAT Mean,float64,737737,0
+Fwd IAT Std,float64,700313,0
+Fwd IAT Max,int64,437316,0
+Fwd IAT Min,int64,110631,0
+Bwd IAT Total,int64,414928,0
+Bwd IAT Mean,float64,670824,0
+Bwd IAT Std,float64,709042,0
+Bwd IAT Max,int64,368285,0
+Bwd IAT Min,int64,66074,0
+Fwd PSH Flags,int64,2,0
+Fwd URG Flags,int64,2,0
+Fwd Header Length,int64,3771,0
+Bwd Header Length,int64,3945,0
+Fwd Packets/s,float64,1220423,0
+Bwd Packets/s,float64,1107886,0
+Min Packet Length,int64,215,0
+Max Packet Length,int64,5708,0
+Packet Length Mean,float64,215826,0
+Packet Length Std,float64,412246,0
+Packet Length Variance,float64,405565,0
+FIN Flag Count,int64,2,0
+SYN Flag Count,int64,2,0
+RST Flag Count,int64,2,0
+PSH Flag Count,int64,2,0
+ACK Flag Count,int64,2,0
+URG Flag Count,int64,2,0
+CWE Flag Count,int64,2,0
+ECE Flag Count,int64,2,0
+Down/Up Ratio,int64,31,0
+Average Packet Size,float64,212207,0
+Avg Fwd Segment Size,float64,99716,0
+Avg Bwd Segment Size,float64,147611,0
+Fwd Header Length.1,int64,3771,0
+Subflow Fwd Packets,int64,1432,0
+Subflow Fwd Bytes,int64,17928,0
+Subflow Bwd Packets,int64,1747,0
+Subflow Bwd Bytes,int64,64738,0
+Init_Win_bytes_forward,int64,12151,0
+Init_Win_bytes_backward,int64,13112,0
+act_data_pkt_fwd,int64,1093,0
+min_seg_size_forward,int64,28,0
+Active Mean,float64,326325,0
+Active Std,float64,202826,0
+Active Max,int64,299565,0
+Active Min,int64,175670,0
+Idle Mean,float64,222016,0
+Idle Std,float64,197616,0
+Idle Max,int64,149737,0
+Idle Min,int64,223888,0
